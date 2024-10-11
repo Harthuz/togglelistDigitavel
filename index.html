@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toggle List Digitável</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="dropdown">
+        <button class="dropbtn" onclick="toggleList()">Selecionar Item</button>
+        <div id="dropdownList" class="dropdown-content">
+            <input type="text" placeholder="Pesquisar..." id="searchInput" onkeyup="filterList()" class="input-drop">
+            <ul id="listItems">
+                <li>A 1</li>
+                <li>A 2</li>
+                <li>B 3</li>
+                <li>B 4</li>
+                <li>C 5</li>
+                <li>C 6</li>
+            </ul>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
